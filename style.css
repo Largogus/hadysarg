@@ -12,6 +12,19 @@ img {
     display: block;
 }
 
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    font-size: 2em;
+    color: white;
+}
+
 .button {
     width: 100vw;
     height: 20vh;
@@ -61,10 +74,14 @@ span {
     button {
         font-size: 2.5em;
     }
+
+    p {
+        font-size: 1.5em;
+    }
 }
 
 @media (max-width: 425px) {
-    button {
-        font-size: 1.5em;
+    p {
+        font-size: 1em;
     }
 }
