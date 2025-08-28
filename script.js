@@ -19,3 +19,9 @@ img_download.addEventListener('click', () => {
     link.click();
     document.body.removeChild(link);
 });
+
+btn = document.getElementById('btn');
+
+btn.addEventListener('click', () => {
+    window.location.replace('https://realhumanmade.ru') 
+})
