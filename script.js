@@ -23,5 +23,5 @@ img_download.addEventListener('click', () => {
 btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
-    window.location.replace('https://realhumanmade.ru') 
+    window.location.replace('http://194.87.248.23') 
 })
